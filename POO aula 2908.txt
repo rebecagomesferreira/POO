@@ -1,0 +1,32 @@
+POO aula 29/08
+
+Atributos de instância: atributos armazenados nas variáveis no momento da criação do objeto
+
+Atributos estáticos: não é necessário criar um new, atributos da classe
+
+Atributos finais: atributos que não podem ser modificados
+
+String = objeto, não é um tipo primitivo
+
+Funções de instância: 
+
+Métodos: ações e comportamentos
+Métodos de instância: está sendo utilizado no momento que o objeto é criado
+
+Construtores: métodos de inicialização de objeto
+ex: Pessoa-classe p1-objeto = new-sintaxe Pessoa()-classe método construtor
+° Vai saber quando for acionado pela quantidade e ordem dos parâmetros
+
+Sobrecarga: definir múltiplos construtores, cada um com uma lista de parâmetros diferente
+
+This: palavra chave responsável por referenciar o objeto atual da classe permite acessar atributos e métodos da classe
+° referencia um método ou classe
+
+Métodos estáticos: métodos da classe, não precisam ser instanciados
+
+Sobrecarga de métodos: permite definir múltiplos métodos com parâmetros diferentes
+
+
+na hora do construtor padrão inicializa a hora no now
+completa como false
+
