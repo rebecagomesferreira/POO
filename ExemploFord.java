@@ -28,7 +28,7 @@ package com.rebecagomes.exemploford;
         double valor1 = 100.00, valor2 = 212.00; //passagem por parâmetro
         
         reaju.calculaValor(valor1);
-        System.out.println(valog
+        System.out.println(valor1);
         reaju.calculaValor(valor2);
         System.out.println(valor2);//212
         
