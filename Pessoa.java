@@ -1,34 +1,24 @@
-package com.mycompany.aula3;
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
 
+package com.rebecagomes.pessoa;
+
+/**
+ *
+ * @author Usuário
+ */
 public class Pessoa {
 
-    private String nome;
-    private int idade;
-    private String cpf;
-    private double altura;
-
-    /*metodos construtor 
-    @paren p_modelo
-     */
-    public Pessoa(String p_nome, int p_idade, String p_cpf) {
-        this.nome = p_nome;
-        this.idade = p_idade;
-        this.cpf = p_cpf;
+    public static void main(String[] args) {
+        ExemploPessoa maria;
+        maria = new ExemploPessoa();
+        maria.idade = 18;
+        maria.sexo = 'f';
+        maria.mensagem();
+        
+        System.out.println(maria.idade);
+        System.out.println(maria.sexo);
     }
     
-    /*
-    Metodo para que a pessoa se apresente 
-    */
-    
-    public void seApresente(){
-        System.out.println("Olá, seu nome eh: " + nome + ", minha idade eh " + idade + ", meu cpf eh: " + cpf);
-    }
-    
-    /*
-    Metodos gets
-    */
-    
-    public String getNome(){
-        return nome; 
-    }
 }

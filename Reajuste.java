@@ -4,18 +4,12 @@
  */
 package com.rebecagomes.exemploford;
 
-/**
- *
- * @author Usuário
- */
-class Carro {
-
-    int ano;
-    String cor;
-    String modelo;
-    double valor; // atributos
+class Reajuste {
+    void calculaValor(double valorParametro){
+         valorParametro =+ 1000.00;
+    }
     
-    public static void main(String[] args){
-        System.out.println("Classe Carro");
+    void calculaCarro( Carro carroParametro){
+        carroParametro.valor = carroParametro.valor + 1000.00;
     }
 }
