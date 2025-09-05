@@ -1,0 +1,60 @@
+métodos construtores: especiais chamados para criar um objeto com new
+- mesmo nome da classe
+- não tem retorno, nem void
+- inicializa no objeto levando em consideração a sua assinatura, quantidade de parâmetros passados no método
+identificação:
+- tipo
+- ordem
+- quantidade de parâmetros
+
+sobrecarga: múltiplos construtores com diferentes parâmetros
+
+getters: retorna o valor do atributo get + nomeatributo
+-tipo: mesmo definido no atributo 
+- boolean: is
+
+setters: modificam o valor
+
+this: aponta para objetos, métodos e classe, referencia 
+
+sobrecarga de métodos: 
+overloading: múltiplos métodos com o mesmo nome, parâmetros diferentes
+- acontece na mesma classe
+- tipo
+- quantidade
+- ordem
+- não se importa com o tipo de retorno
+- maior flexibilidade para os usuários da classe
+- facilita manutenção
+
+overriding: não acontece na mesma classe, os métodos possuem o mesmo nome estão em classes diferentes
+- redefinição de um métodos, muda o código fonte
+- altera o método dele
+- reescrita do código no método do pai
+- @Overriding
+- assinatura completa
+
+atributos e métodos finais: não podem ser modificados
+
+métodos abstratos: declarados sem implementação
+- exige que todos os filhos implementem esse método 
+- classe pode ter métodos concretos
+- chamado pelo mesmo nome 
+
+métodos main: ponto de entrada, onde o programa executa
+- public: acessível pela JVM 
+- static: não cria instância de classes
+- void: não retorna valor
+
+métodos utilitários: métodos estáticos que fornecem funções comuns e reutilizáveis 
+- reuso do código 
+
+trabalho: 
+array
+controle
+não métodos crund
+atualizar buscar 
+criar listar e remover 
+ 
+
+
